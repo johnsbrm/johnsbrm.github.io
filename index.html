@@ -2,23 +2,119 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Brandon Johnson – Cybersecurity Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #0a192f;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #64ffda;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      color: #0a192f;
+      border-bottom: 2px solid #64ffda;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin: 15px 0;
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 20px;
+      background-color: #0a192f;
+      color: #aaa;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #64ffda;
+      color: #0a192f;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <h1>Brandon Johnson</h1>
-  <p>Defensive Cyberspace Operator | Threat Hunter | SOC Analyst</p>
 
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="https://github.com/yourusername/project1">Project 1 – SIEM Threat Hunt</a></li>
-    <li><a href="https://github.com/yourusername/project2">Project 2 – Malware Analysis Report</a></li>
-  </ul>
+  <header>
+    <h1>Brandon Johnson</h1>
+    <p>Defensive Cyberspace Operator | SOC Analyst | Threat Hunter</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <h2>About Me</h2>
-  <p>I’m a Marine Corps cyberspace operator with a focus on threat detection, incident response, and proactive defense...</p>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <h3>SIEM Threat Hunt – Brute Force & Lateral Movement</h3>
+        <p>Conducted real-time threat hunting using Splunk Enterprise. Built custom correlation searches to detect brute force attacks and lateral movement via SMB across the enterprise.</p>
+        <a class="button" href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+      </li>
+      <li>
+        <h3>Malware Analysis – Reverse Engineering EXE Sample</h3>
+        <p>Performed dynamic and static analysis of a Windows executable using tools like Ghidra, Any.Run, and Wireshark. Documented behavior and IOCs in a structured PDF report.</p>
+        <a class="button" href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+      </li>
+      <li>
+        <h3>Incident Response Playbook – Ransomware Containment</h3>
+        <p>Developed an IR playbook for a simulated ransomware event. Outlined containment, eradication, and recovery procedures aligned with NIST 800-61.</p>
+        <a class="button" href="https://github.com/yourusername/project3" target="_blank">View on GitHub</a>
+      </li>
+    </ul>
+  </section>
 
-  <h2>Contact</h2>
-  <p>Email: your.email@example.com</p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile/">yourprofile</a></p>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a U.S. Marine and certified cyberspace warfare operator (1721 MOS) with a deep focus on defensive cyber operations, threat hunting, and SOC methodologies. I’m currently transitioning to civilian life and seeking opportunities where I can apply my experience in advanced detection, incident response, and cyber intelligence fusion to make a meaningful impact. I hold the GCIH certification and have led threat hunts and capability development efforts while supporting national defense missions in the Indo-Pacific.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourlinkedin/" target="_blank">linkedin.com/in/yourlinkedin</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Brandon Johnson. Built with ❤️ using GitHub Pages.
+  </footer>
+
 </body>
 </html>
